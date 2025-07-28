@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Clear All Items Option -->
+    <item
+        android:id="@+id/action_clear"
+        android:title="Clear All"
+        app:showAsAction="ifRoom|withText" />
+
+    <!-- About App Option -->
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        app:showAsAction="never" />
+</menu>
